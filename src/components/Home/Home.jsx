@@ -23,13 +23,15 @@ const Home = () => {
       <div className={cl.header}>
         <div className={cl.header_wrapper}>
           <h3 style={{ marginRight: '1rem' }}>Сurrent exchange rate:</h3>
-          <div className={cl.money_block}>
-            <h3>USD:</h3>
-            <p>{dollar}</p>
-          </div>
-          <div className={cl.money_block}>
-            <h3>EUR:</h3>
-            <p>{euro}</p>
+          <div style={{display: 'flex'}}>
+            <div className={cl.money_block}>
+              <h3>USD:</h3>
+              <p>{dollar}</p>
+            </div>
+            <div className={cl.money_block}>
+              <h3>EUR:</h3>
+              <p>{euro}</p>
+            </div>
           </div>
         </div>
       </div>

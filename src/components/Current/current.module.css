@@ -5,4 +5,12 @@
   padding: .5rem;
   margin-bottom: 1rem;
   outline: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .input {
+    width: 100%;
+    box-sizing: border-box;
+  }
 }
