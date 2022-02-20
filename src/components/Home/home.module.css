@@ -1,0 +1,31 @@
+.app_wrapper {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+.header {
+  width: 100%;
+  height: auto;
+  padding: 1rem 0;
+  background: rgb(16, 132, 255);
+  background: linear-gradient(90deg, rgb(13, 112, 218) 0%, rgb(86, 197, 252) 50%, rgba(0,254,255, 1) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #fff;
+}
+.header_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.money_block {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 1rem;
+}
